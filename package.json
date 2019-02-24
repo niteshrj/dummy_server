@@ -1,0 +1,25 @@
+{
+  "name": "dummy_server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "connection.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/niteshrj/dummy_server.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/niteshrj/dummy_server/issues"
+  },
+  "homepage": "https://github.com/niteshrj/dummy_server#readme",
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "mocha": "^6.0.1"
+  }
+}
