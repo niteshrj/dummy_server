@@ -8,6 +8,8 @@ RUN apk add --update nodejs nodejs-npm
 
 RUN npm install
 
+RUN npm install -g mocha
+
 COPY ./ ./
 
 CMD ["npm", "start"]
