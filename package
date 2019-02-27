@@ -1,0 +1,3 @@
+#! /bin/sh
+mkdir artifact
+cp -r package.json package-lock.json server.js test1.js test2.js node_modules artifact
